@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Digi Productive Foundation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .blinking-cursor {
+        animation: blink 1s step-start infinite;
+      }
+
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white font-sans">
+    <div class="max-w-3xl mx-auto px-4 py-10">
+      <!-- Header -->
+      <header class="mb-8">
+        <h1 class="text-2xl md-text-4xl font-bold mb-2 flex items-center gap-2">
+          <span class="text-3xl">{ }:</span> Digi Productive Foundation
+        </h1>
+
+        <!-- Typewriter Effect -->
+        <p class="md-text-lg text-gray-300 pb-8 relative">
+          <span id="typewriter-text"></span>
+          <span class="blinking-cursor absolute inline-block w-[1px] h-6 bg-gray-300 ml-1"></span>
+        </p>
+
+        <!-- Project Highlight -->
+        <section class="mb-10">
+          <div class="bg-gray-800 p-4 rounded-lg">
+            <h3 class="text-xl font-bold">🫡 The Mission</h3>
+            <p
+              id="mission"
+              class="text-gray-300 mt-1"
+            ></p>
+            <ul class="mt-3 flex flex-col space-y-2 text-sm text-gray-400">
+              <span>✅ Solve problems with open source software</span>
+              <span>✅ Improve knowledge through dev mentorship </span>
+              <span>✅ Scale via cooperation and partnerships</span>
+              <span>✅ Contribute to developing digital services and economy </span>
+            </ul>
+            <div class="mt-3">
+              <a
+                href="https://github.com/yourusername/khadimconnect"
+                class="text-blue-400 hover:underline text-sm"
+                >See more</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Founder Section -->
+        <section class="mt-10 rounded-lg p-4 bg-gray-800">
+          <h2 class="text-xl font-semibold text-white mb-2">🤓 The Founder</h2>
+          <p class="mt-2 pb-2 text-sm text-gray-400 font-bold">📍 Addis Abba, Ethiopia 🇪🇹</p>
+          <p class="text-sm text-gray-300 text-l">
+            👋 I'm JJ Brooks, a software developer and global traveller from Canada residing in
+            Africa with a mission to empower communities through open-source technology and
+            mentorship. I founded Digi Productive Foundation to support Africa’s digital
+            transformation through contributing to developer capacity, fintech innovation, and
+            creating tools that scale Africa's growing digital services and economy.
+          </p>
+          <div class="mt-4 flex gap-4">
+            <a
+              href="https://github.com/yourusername"
+              target="_blank"
+              class="bg-gray-700 bhover:bg-gray-600 text-white text-sm font-medium py-2 px-4 rounded transition"
+              >Profile</a
+            >
+            <a
+              href="mailto:youremail@example.com"
+              class="bg-gray-700 hover:bg-gray-600 text-white text-sm font-medium py-2 px-4 rounded transition"
+              >Contact</a
+            >
+          </div>
+        </section>
+
+        <!-- Support Section -->
+        <section class="mt-12">
+          <h2 class="text-xl font-semibold text-white mb-2">
+            <span
+              id="heart-beat"
+              class="inline-block"
+              >💖</span
+            >
+            Support This Project
+          </h2>
+
+          <p class="text-sm text-gray-400">
+            Digi Productive Foundation is committed to open-source and fintech innovation for
+            Africa. Your support fuels development, mentorship, and services that power the digital
+            future.
+          </p>
+
+          <div class="mt-4">
+            <a
+              href="https://your-stripe-donation-link.com"
+              target="_blank"
+              class="bg-red-500 text-white text-sm font-medium py-2 px-4 rounded transition mr-2"
+              >💳 Online</a
+            >
+            <a
+              href="https://your-stripe-donation-link.com"
+              target="_blank"
+              class="bg-red-500 text-white text-sm font-medium py-2 px-4 rounded transition"
+              >🏦 Bank Transfer</a
+            >
+          </div>
+
+          <p class="text-xs pt-4 text-gray-500 mt-2">
+            Every contribution counts—whether you're buying a coffee ☕️, sponsoring a tool 🔧, or
+            fueling a dream 💭.
+          </p>
+        </section>
+
+        <!-- Foundation Section -->
+        <section class="mt-16 border border-gray-700 rounded-lg p-6">
+          <h2 class="text-xl font-semibold text-white mb-2">🏢 About Us</h2>
+          <p class="text-sm text-gray-400 leading-relaxed">
+            Digi Productive Foundation is a registered Canadian not-for-profit foundation founded by
+            JJ Brooks. We aim to empower communities through free software, developer mentorship,
+            and practical innovation.
+          </p>
+
+          <div class="mt-4 text-sm text-gray-300 space-y-1">
+            <p><strong>Name:</strong> Digi Productive Foundation</p>
+            <p>
+              <strong>Email:</strong>
+              <a
+                href="mailto:youremail@example.com"
+                class="text-blue-400 hover:underline"
+                >youremail@example.com</a
+              >
+            </p>
+            <p>
+              <strong>GitHub:</strong>
+              <a
+                href="https://github.com/yourusername"
+                target="_blank"
+                class="text-blue-400 hover:underline"
+                >github.com/yourusername</a
+              >
+            </p>
+            <p><strong>Location:</strong> Addis Ababa, Ethiopia</p>
+            <!-- Optional future line -->
+            <p><strong>Registered as:</strong> Nonprofit (Canada/Ethiopia - pending)</p>
+          </div>
+        </section>
+
+        <section class="mt-12">
+          <h2 class="text-xl font-semibold text-white mb-2">🤝 Connect With Us</h2>
+          <p class="text-sm text-gray-400">
+            Have a question, interested in meetups, mentorship, or collaboration etc.? We are always
+            happy to hear from passionate developers, partners, and supporters. Drop us an email. We
+            will get back to you within 48hrs.
+          </p>
+
+          <div class="mt-4">
+            <a
+              href="https://your-stripe-donation-link.com"
+              target="_blank"
+              class="inline-block border border-gray-700 rounded-lg hover:bg-green-600 text-white text-sm font-semibold py-2 px-5 rounded shadow transition"
+            >
+              💌 Contact us
+            </a>
+          </div>
+        </section>
+      </header>
+
+      <!-- Dev Log -->
+      <section class="mb-10">
+        <h2 class="text-xl font-semibold mb-2">📆 Dev Log</h2>
+        <div
+          id="log-feed"
+          class="space-y-4"
+        >
+          <!-- Entries injected by JS -->
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="border-t border-gray-700 pt-6 text-sm text-gray-500 text-center">
+        Built with purpose by Digi Productive Foundation<br />
+        &copy; 2025 Digi Productive Foundation. All rights reserved.
+      </footer>
+    </div>
+
+    <!-- Typewriter + Dev Log Script -->
+    <script>
+      // Typewriter effect
+      const typewriterText =
+        'A self-driven grassroots initiative contributing open-source technology, fintech tools, skill mentorship, and scalable software solutions to strengthen Africa’s digital transformation in Africa, for Africa...'
+      const textEl = document.getElementById('typewriter-text')
+      let index = 0
+
+      function typeNextChar() {
+        if (index <= typewriterText.length) {
+          textEl.textContent = typewriterText.slice(0, index++)
+          setTimeout(typeNextChar, 20)
+        }
+      }
+
+      setTimeout(typeNextChar, 500)
+
+      const mission =
+        "Digi Productive Foundation's mission is to empower communities through accessible mentorship, open-source software development, and mission-aligned partnerships that scale innovation in fintech, digital services, and the broader digital economy across the African continent."
+
+      document.getElementById('mission').textContent = mission
+
+      const missionEl = document.createElement('p')
+
+      // Dev Log updates
+      const updates = [
+        {
+          date: 'May 20, 2025',
+          content: `Finalized the job submission form in Flutter and added location-based filtering so users can search jobs nearby. Also had a productive chat with ALX Africa about collaboration. Big step forward! 🚀`,
+          tags: ['#Flutter', '#OpenSource', '#AfricaBuilds'],
+        },
+        {
+          date: 'May 19, 2025',
+          content: `Set up the initial Supabase backend schema and pushed the first project repo live. Took some time to journal ideas around worker rating systems — excited for what’s coming. 💡`,
+          tags: ['#Supabase', '#DevLog', '#CommunityTools'],
+        },
+      ]
+
+      const feed = document.getElementById('log-feed')
+
+      updates.forEach(entry => {
+        const post = document.createElement('div')
+        post.className = 'bg-gray-800 p-4 rounded-lg shadow border border-gray-700 mb-4'
+
+        post.innerHTML = `
+    <div class="flex items-center justify-between mb-2">
+      <span class="text-sm text-gray-400 font-semibold">${entry.date}</span>
+      <span class="text-xs text-gray-500">#DevLog</span>
+    </div>
+    <p class="text-sm text-gray-200 leading-relaxed mb-2">
+      ${entry.content}
+    </p>
+    <div class="text-xs text-blue-400 flex flex-wrap gap-2">
+      ${entry.tags.map(tag => `<span>${tag}</span>`).join('')}
+    </div>
+  `
+
+        feed.appendChild(post)
+      })
+
+      const heart = document.getElementById('heart-beat')
+
+      let scaleUp = true
+      setInterval(() => {
+        heart.style.transform = scaleUp ? 'scale(1.5)' : 'scale(1)'
+        heart.style.transition = 'transform 0.8s ease-in-out'
+        scaleUp = !scaleUp
+      }, 1200) // slow pulse every 1.2 seconds
+    </script>
+  </body>
+</html>
