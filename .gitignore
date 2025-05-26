@@ -1,0 +1,8 @@
+# Ignore system and editor files
+.DS_Store
+.vscode/
+
+# Optional: if you add tooling later
+node_modules/
+dist/
+.env

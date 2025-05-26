@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      document.write('<base href="' + location.pathname + '" />')
+    </script>
+    <script type="module" src="../js/modules/head.js"></script>
+  </head>
+
+  <body class="bg-gray-900 text-white font-sans">
+    <div data-include="partials/header.html"></div>
+
+    <div class="max-w-3xl mx-auto px-4 py-10">
+      <!-- Header -->
+      <header class="mb-10">
+        <h1 class="text-3xl md:text-4xl font-bold mb-2">📒 Dev Logs</h1>
+        <p class="text-gray-400 text-sm">
+          Project updates and developer journey entries from Digi Productive Foundation.
+        </p>
+      </header>
+
+      <!-- Dev Log Entries -->
+      <section class="space-y-6">
+        <!-- Example Entry -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow border border-gray-700">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm text-gray-400 font-semibold">May 20, 2025</span>
+            <span class="text-xs text-gray-500">#Flutter</span>
+          </div>
+          <p class="text-sm text-gray-200 leading-relaxed mb-2">
+            Finalized the job submission form in Flutter and added location-based filtering so users
+            can search jobs nearby. Big step forward! 🚀
+          </p>
+          <div class="text-xs text-blue-400 flex flex-wrap gap-2">
+            <span>#Flutter</span><span>#OpenSource</span><span>#AfricaBuilds</span>
+          </div>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-lg shadow border border-gray-700">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm text-gray-400 font-semibold">May 19, 2025</span>
+            <span class="text-xs text-gray-500">#Supabase</span>
+          </div>
+          <p class="text-sm text-gray-200 leading-relaxed mb-2">
+            Set up the initial Supabase backend schema and pushed the first project repo live. Took
+            some time to journal ideas around worker rating systems — excited for what’s coming. 💡
+          </p>
+          <div class="text-xs text-blue-400 flex flex-wrap gap-2">
+            <span>#Supabase</span><span>#DevLog</span><span>#CommunityTools</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="text-sm text-gray-500 text-center border-t border-gray-700 pt-6 mt-10">
+        &copy; 2025 Digi Productive Foundation. All rights reserved.
+      </footer>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

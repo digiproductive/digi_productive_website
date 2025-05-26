@@ -1,0 +1,55 @@
+{
+  "folders": [
+    {
+      "name": "Digi Productive Site",
+      "path": "."
+    }
+  ],
+  "settings": {
+    // 🔧 Format on save
+    "editor.formatOnSave": true,
+
+    // 🎨 Prettier settings directly embedded
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 2,
+    "prettier.trailingComma": "none",
+
+    // 🌐 HTML and TailwindCSS support
+    "html.autoClosingTags": true,
+    "emmet.includeLanguages": {
+      "html": "html",
+      "javascript": "html",
+      "typescript": "javascript"
+    },
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html",
+      "javascript": "html",
+      "typescript": "html"
+    },
+    "tailwindCSS.experimental.classRegex": [
+      "class\\s*=\\s*\"([^\"]*)\"",
+      "className\\s*=\\s*\"([^\"]*)\""
+    ],
+
+    // 🧹 Editor cleanliness
+    "files.trimTrailingWhitespace": true,
+
+    // 📁 Optional search exclusion
+    "search.exclude": {
+      "**/node_modules": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "formulahendry.auto-close-tag",
+      "ritwickdey.liveserver",
+      "dbaeumer.vscode-eslint",
+      "ms-vscode.vscode-typescript-tslint-plugin"
+    ]
+  }
+}

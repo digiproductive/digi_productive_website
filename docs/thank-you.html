@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      document.write('<base href="' + location.pathname + '" />')
+    </script>
+    <script src="js/modules/head.js"></script>
+    <script type="module" src="../js/modules/head.js"></script>
+  </head>
+
+  <body class="bg-gray-900 text-white font-sans">
+    <div data-include="../partials/header.html"></div>
+
+    <div class="max-w-2xl mx-auto px-4 py-20 text-center">
+      <h1 class="text-4xl font-bold mb-4">🎉 Thank You!</h1>
+      <p class="text-lg text-gray-300 mb-6">
+        Your message has been received. We'll get back to you within 48 hours. 💌
+      </p>
+      <p class="text-sm text-gray-500 mb-10">
+        Meanwhile, feel free to explore more of our work or follow us online 👇
+      </p>
+
+      <div class="flex justify-center gap-4">
+        <a href="/" class="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded"
+          >🏠 Back to Home</a
+        >
+        <a
+          href="https://github.com/yourusername"
+          target="_blank"
+          class="bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 rounded"
+          >💻 GitHub</a
+        >
+      </div>
+
+      <footer class="text-sm text-gray-500 text-center border-t border-gray-700 pt-10 mt-10">
+        🙌 Thanks for reaching out – Digi Productive Foundation
+      </footer>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
