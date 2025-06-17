@@ -1,14 +1,9 @@
 document.addEventListener('partials-loaded', () => {
     const updates = [
         {
-            date: 'May 20, 2025',
-            content: `Finalized the job submission form in Flutter and added location-based filtering so users can search jobs nearby. Big step forward! 🚀`,
-            tags: ['#Flutter', '#OpenSource', '#AfricaBuilds']
-        },
-        {
-            date: 'May 19, 2025',
-            content: `Set up the initial Supabase backend schema and pushed the first project repo live. Took some time to journal ideas around worker rating systems — excited for what’s coming. 💡`,
-            tags: ['#Supabase', '#DevLog', '#CommunityTools']
+            date: 'June 17, 2025',
+            content: `🚀Just started a Substack newsletter about software development. <br> Join here: <a href="https://substack.com/@digiproductive" target="_blank" rel="noopener noreferrer" style="color:#60a5fa;">https://substack.com/@digiproductive</a>`,
+            tags: ['#Substack', '#Flutter', '#Python', '#SoftwareDevelopment']
         }
     ];
     const feed = document.getElementById('log-feed');
@@ -19,16 +14,16 @@ document.addEventListener('partials-loaded', () => {
         post.className = 'bg-gray-800 p-4 rounded-lg shadow border border-gray-700 mb-4';
         const tagsHTML = entry.tags.map((tag) => `<span>${tag}</span>`).join('');
         post.innerHTML = `
-        <div class="flex items-center justify-between mb-2">
-          <span class="text-sm text-gray-400 font-semibold">${entry.date}</span>
-          <span class="text-xs text-gray-500">#DevLog</span>
-        </div>
-        <p class="text-sm text-gray-200 leading-relaxed mb-2">
-          ${entry.content}
-        </p>
-        <div class="text-xs text-blue-400 flex flex-wrap gap-2">
-          ${tagsHTML}
-        </div>
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-sm text-gray-400 font-semibold">${entry.date}</span>
+        <a href="docs/updates.html" class="text-xs text-blue-400 hover:underline">#DevLog</a>
+      </div>
+      <p class="text-sm text-gray-200 leading-relaxed mb-2">
+        ${entry.content}
+      </p>
+      <div class="text-xs text-blue-400 flex flex-wrap gap-2">
+        ${tagsHTML}
+      </div>
       `;
         feed.appendChild(post);
     });

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      document.write('<base href="' + location.pathname + '" />')
+    </script>
+    <script type="module" src="../js/modules/head.js"></script>
+  </head>
+
+  <body class="bg-gray-900 text-white font-sans">
+    <div data-include="partials/header.html"></div>
+
+    <div class="max-w-3xl mx-auto px-4 py-10">
+      <!-- Header -->
+      <header class="mb-10">
+        <h1 class="text-3xl md:text-4xl font-bold mb-2">📅 Updates</h1>
+        <!-- <p class="text-gray-400 text-sm">
+          Project updates and developer journey entries from Digi Productive Foundation.
+        </p> -->
+      </header>
+
+      <!-- Dev Log Entries -->
+      <section class="space-y-6">
+        <div id="log-feed" class="space-y-4">
+      </section>
+
+      <!-- Footer -->
+      <footer class="text-sm text-gray-500 text-center border-t border-gray-700 pt-6 mt-10">
+        &copy; 2025 Digi Productive Foundation. All rights reserved.
+      </footer>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

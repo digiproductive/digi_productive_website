@@ -7,14 +7,9 @@ document.addEventListener('partials-loaded', () => {
 
   const updates: Update[] = [
     {
-      date: 'May 20, 2025',
-      content: `Finalized the job submission form in Flutter and added location-based filtering so users can search jobs nearby. Big step forward! 🚀`,
-      tags: ['#Flutter', '#OpenSource', '#AfricaBuilds']
-    },
-    {
-      date: 'May 19, 2025',
-      content: `Set up the initial Supabase backend schema and pushed the first project repo live. Took some time to journal ideas around worker rating systems — excited for what’s coming. 💡`,
-      tags: ['#Supabase', '#DevLog', '#CommunityTools']
+      date: 'June 17, 2025',
+      content: `🚀Just started a Substack newsletter about software development. <br> Join here: <a href="https://substack.com/@digiproductive" target="_blank" rel="noopener noreferrer" style="color:#60a5fa;">https://substack.com/@digiproductive</a>`,
+      tags: ['#Substack', '#Flutter', '#Python', '#SoftwareDevelopment']
     }
   ]
 

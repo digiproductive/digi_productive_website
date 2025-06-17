@@ -1,6 +1,6 @@
 document.addEventListener('partials-loaded', () => {
   const mission: string =
-    'Our mission is to empower communities through accessible mentorship, open-source software development, and mission-aligned partnerships that scale innovation in fintech, digital services, and the broader digital economy across the African continent.'
+    'Teach, inspire, and support software development and startups on the ground in Africa.'
 
   const missionEl: HTMLElement | null = document.getElementById('mission')
 

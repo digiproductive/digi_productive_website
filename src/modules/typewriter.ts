@@ -1,6 +1,6 @@
 document.addEventListener('partials-loaded', () => {
   const typewriterText: string =
-    'A grassroots initiative focused on developer mentorship and open-source development in Africa'
+    'Contributing to software and app development in Africa through free knowledge sharing, skill building, collaboration, and startup initiatives.'
 
   const textEl: HTMLElement | null = document.getElementById('typewriter-text')
   let index: number = 0
